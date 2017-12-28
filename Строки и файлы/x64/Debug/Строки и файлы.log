@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  Строки и файлы.cpp
+c:\users\darya\source\repos\consoleapplication11\строки и файлы\строки и файлы.cpp(79): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\darya\source\repos\consoleapplication11\строки и файлы\строки и файлы.cpp(59): warning C4477: "printf": в строке форматирования "%10.2f" требуется аргумент типа "double", но вариативный аргумент "6" имеет тип "__int64"
+c:\users\darya\source\repos\consoleapplication11\строки и файлы\строки и файлы.cpp(59): warning C4473: "printf": передано недостаточно аргументов для строки формата
+  c:\users\darya\source\repos\consoleapplication11\строки и файлы\строки и файлы.cpp(59): note: заполнители и их параметры ожидают переменное число аргументов в количестве 7, но было предоставлено 6
+  c:\users\darya\source\repos\consoleapplication11\строки и файлы\строки и файлы.cpp(59): note: отсутствующий вариативный аргумент "7" требуется для строки форматирования "%010d"
+  Строки и файлы.vcxproj -> C:\Users\Darya\source\repos\ConsoleApplication11\x64\Debug\Строки и файлы.exe
