@@ -1,0 +1,3 @@
+﻿  Data structure.cpp
+c:\users\darya\source\repos\consoleapplication11\data structure\data structure.cpp(41): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Data structure.vcxproj -> C:\Users\Darya\source\repos\ConsoleApplication11\x64\Debug\Data structure.exe
