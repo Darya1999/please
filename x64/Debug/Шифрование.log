@@ -1,0 +1,5 @@
+﻿  Шифрование.cpp
+c:\users\darya\source\repos\consoleapplication11\шифрование\шифрование.cpp(34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\darya\source\repos\consoleapplication11\шифрование\шифрование.cpp(152): warning C4244: аргумент: преобразование "std::streamsize" в "int", возможна потеря данных
+c:\users\darya\source\repos\consoleapplication11\шифрование\шифрование.cpp(186): warning C4244: аргумент: преобразование "std::streamsize" в "int", возможна потеря данных
+  Шифрование.vcxproj -> C:\Users\Darya\source\repos\ConsoleApplication11\x64\Debug\Шифрование.exe
