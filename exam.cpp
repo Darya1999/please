@@ -34,7 +34,7 @@ char exam::get(int i) // чтение строки
 	}
 }
 
-char exam::set(int i, char val) // запись строки
+char exam::insert(int i, char val) // запись строки
 {
 	if ((st != 0) && (i < x))
 	{
@@ -43,6 +43,22 @@ char exam::set(int i, char val) // запись строки
 	else
 	{
 		return 0;
+	}
+}
+
+
+exam::exam(const char *source)//копирует содержимое из массива char
+{
+	x = 0;
+	while (source[x] != 0)
+	{
+		x++;
+	}
+	max = x;
+	st = new char[max];
+	for (int i = 0; i < x; i++)
+	{
+	str1_Dyn[i] = source[i];
 	}
 }
 
@@ -81,7 +97,7 @@ void exam::grow() // увеличение размера строки
 	max = 2 * max + 1;
 }
 
-void exam::del() // удаление строки
+void exam::clear() // удаление строки
 {
 	x = 0;
 }
